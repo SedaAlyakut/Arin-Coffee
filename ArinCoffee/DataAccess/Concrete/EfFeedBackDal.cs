@@ -5,7 +5,7 @@ using Entities.Models;
 
 namespace DataAccess.Concrete
 {
-    public class EfCardDal : EfEntityRepositoryBase<Card, ArinCoffeeContext>,ICardDal
-    { 
+    public class EfFeedBackDal : EfEntityRepositoryBase<FeedBack, ArinCoffeeContext>, IFeedBackDal
+    {
     }
 }

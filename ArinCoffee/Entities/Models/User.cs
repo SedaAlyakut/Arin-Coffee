@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Core.Entites;
+
 
 namespace Entities.Models
 {
-    public partial class User
+    public partial class User : IEntity
     {
         public int UsersId { get; set; }
         public string UserName { get; set; } = null!;

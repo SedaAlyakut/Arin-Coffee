@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Core.Entites;
+
 
 namespace Entities.Models
 {
-    public partial class Product
+    public partial class Product : IEntity
     {
         public Product()
         {
@@ -11,15 +13,15 @@ namespace Entities.Models
             Watches = new HashSet<Watch>();
         }
 
-        public int ProductId { get; set; }
-        public string ProductName { get; set; } = null!;
-        public int Weight { get; set; }
-        public int Status { get; set; }
-        public string Image1 { get; set; } = null!;
-        public string Image2 { get; set; } = null!;
-        public string Image3 { get; set; } = null!;
-        public string Image4 { get; set; } = null!;
-        public string Image5 { get; set; } = null!;
+        public int? ProductId { get; set; }
+        public string ProductName { get; set; } 
+        public int? Weight { get; set; }
+        public int? Status { get; set; }
+        public string Image1 { get; set; } 
+        public string Image2 { get; set; } 
+        public string Image3 { get; set; } 
+        public string Image4 { get; set; }  
+        public string Image5 { get; set; } 
 
         public virtual ICollection<Card> Cards { get; set; }
         public virtual ICollection<Watch> Watches { get; set; }
