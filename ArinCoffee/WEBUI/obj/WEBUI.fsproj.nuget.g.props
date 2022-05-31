@@ -12,9 +12,17 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\mertb\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\6.0.5\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\6.0.5\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_EntityFrameworkCore_Design Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Design)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.entityframeworkcore.design\6.0.5</PkgMicrosoft_EntityFrameworkCore_Design>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.entityframeworkcore.tools\6.0.5</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgMicrosoft_EntityFrameworkCore_SqlServer Condition=" '$(PkgMicrosoft_EntityFrameworkCore_SqlServer)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.entityframeworkcore.sqlserver\6.0.5</PkgMicrosoft_EntityFrameworkCore_SqlServer>
+    <PkgMicrosoft_EntityFrameworkCore_Relational_Design Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Relational_Design)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.entityframeworkcore.relational.design\1.1.6</PkgMicrosoft_EntityFrameworkCore_Relational_Design>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation Condition=" '$(PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.aspnetcore.mvc.razor.runtimecompilation\6.0.5</PkgMicrosoft_AspNetCore_Mvc_Razor_RuntimeCompilation>
+    <PkgMicrosoft_AspNetCore_Identity_EntityFrameworkCore Condition=" '$(PkgMicrosoft_AspNetCore_Identity_EntityFrameworkCore)' == '' ">C:\Users\mertb\.nuget\packages\microsoft.aspnetcore.identity.entityframeworkcore\6.0.5</PkgMicrosoft_AspNetCore_Identity_EntityFrameworkCore>
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\mertb\.nuget\packages\fsharp.core\6.0.4</PkgFSharp_Core>
   </PropertyGroup>
 </Project>
