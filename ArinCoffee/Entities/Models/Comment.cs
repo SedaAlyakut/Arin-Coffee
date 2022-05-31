@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Core.Entites;
+using System;
 using System.Collections.Generic;
 
 namespace Entities.Models
 {
-    public partial class Comment
+    public partial class Comment: IEntity
     {
         public int Id { get; set; }
         public int UsersId { get; set; }
