@@ -28,7 +28,220 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj"
+              },
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
