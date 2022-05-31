@@ -6,7 +6,7 @@ using Entities.Models;
 
 namespace DataAccess.Concrete
 {
-    internal class EfOrderDal : EfEntityRepositoryBase<Order, ArinCoffeeContext>, IOrderDal
+    public class EfOrderDal : EfEntityRepositoryBase<Order, ArinCoffeeContext>, IOrderDal
     {
     }
 }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Buisness.Concrete
 {
-    public class CommentManager
+    public class CommentManager: ICommentService
     {
         private readonly ICommentDal _commentDal;
         public CommentManager(ICommentDal commentDal)

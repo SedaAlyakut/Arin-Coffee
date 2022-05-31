@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Buisness.Concrete
 {
-    internal class FeedBackManager : IFeedBackService
+    public class FeedBackManager : IFeedBackService
     {
 
         private readonly IFeedBackDal _feedbackDal;

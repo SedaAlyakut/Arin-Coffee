@@ -6,9 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Buisness.Abstract
 {
-    internal interface IWatchService
+    public interface IWatchService
     {
         List<Watch> GetList();
-
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Buisness.Abstract
 {
-    internal interface IUserServicecs
+    public interface IUserServicecs
     {
         List<User> GetList();
 

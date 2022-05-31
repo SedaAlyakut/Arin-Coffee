@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Buisness.Abstract
 {
-    internal interface ICoomentService
+    public interface ICommentService
     {
         List<Comment> GetList();
     }

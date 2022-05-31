@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Buisness.Abstract
 {
-    internal interface IFeedBackService
+    public interface IFeedBackService
     {
         List<FeedBack> GetList();
     }

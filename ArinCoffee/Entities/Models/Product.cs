@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Core.Entites;
 
 
 namespace Entities.Models
 {
-    public partial class Product : IEntity
+    [Table("Product", Schema = "dbo")]
+public partial class Product : IEntity
     {
         public Product()
         {
             Cards = new HashSet<Card>();
             Watches = new HashSet<Watch>();
         }
-
-        public int? ProductId { get; set; }
+        [Key]
+        public int ProductId { get; set; }
         public string ProductName { get; set; } 
         public int? Weight { get; set; }
         public int? Status { get; set; }

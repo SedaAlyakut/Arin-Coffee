@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Buisness.Abstract
 {
-    internal interface IProductService
+    public interface IProductService
     {
         List<Product> GetList();
     }

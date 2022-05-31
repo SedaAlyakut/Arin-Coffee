@@ -6,7 +6,7 @@ using Entities.Models;
 
 namespace DataAccess.Concrete
 {
-    public class EfWatchDal : EfEntityRepositoryBase<Watch, ArinCoffeeContext>, ICardDal
+    public class EfWatchDal : EfEntityRepositoryBase<Watch, ArinCoffeeContext>, IWatchDal
     {
     }
 }
