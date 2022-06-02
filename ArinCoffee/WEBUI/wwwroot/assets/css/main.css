@@ -5426,10 +5426,10 @@ h6 {
     font-size: 45px;
   }
 }
-.breadcrumb-area .cafena-breadcrumb ul {
+.breadcrumb-area .Arin Coffee-breadcrumb ul {
   margin-bottom: 0px;
 }
-.breadcrumb-area .cafena-breadcrumb li {
+.breadcrumb-area .Arin Coffee-breadcrumb li {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
@@ -5437,14 +5437,14 @@ h6 {
   position: relative;
 }
 @media (max-width: 767px) {
-  .breadcrumb-area .cafena-breadcrumb li {
+  .breadcrumb-area .Arin Coffee-breadcrumb li {
     font-size: 14px;
   }
 }
-.breadcrumb-area .cafena-breadcrumb li:not(:last-child) {
+.breadcrumb-area .Arin Coffee-breadcrumb li:not(:last-child) {
   margin-right: 20px;
 }
-.breadcrumb-area .cafena-breadcrumb li:not(:last-child)::after {
+.breadcrumb-area .Arin Coffee-breadcrumb li:not(:last-child)::after {
   position: absolute;
   left: 0;
   content: "";
@@ -5459,13 +5459,13 @@ h6 {
   top: 0;
   color: #ffffff;
 }
-.breadcrumb-area .cafena-breadcrumb li a {
+.breadcrumb-area .Arin Coffee-breadcrumb li a {
   text-decoration: none;
 }
-.breadcrumb-area .cafena-breadcrumb li a span {
+.breadcrumb-area .Arin Coffee-breadcrumb li a span {
   color: #ffffff;
 }
-.breadcrumb-area .cafena-breadcrumb li span {
+.breadcrumb-area .Arin Coffee-breadcrumb li span {
   color: #C7A17A;
 }
 
@@ -6475,11 +6475,11 @@ h6 {
 
 /* pagination css */
 @media (max-width: 991px) {
-  .cafena-pagination {
+  .Arin Coffee-pagination {
     margin-bottom: 50px;
   }
 }
-.cafena-pagination ul {
+.Arin Coffee-pagination ul {
   list-style: none;
   justify-content: center;
   margin-top: -15px;
@@ -6489,7 +6489,7 @@ h6 {
   flex-wrap: wrap;
   padding-left: 0px;
 }
-.cafena-pagination ul li {
+.Arin Coffee-pagination ul li {
   margin-top: 15px;
   justify-content: center;
   align-items: center;
@@ -6505,14 +6505,14 @@ h6 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.cafena-pagination ul li:not(:last-child) {
+.Arin Coffee-pagination ul li:not(:last-child) {
   margin-right: 10px;
 }
-.cafena-pagination ul li a {
+.Arin Coffee-pagination ul li a {
   text-decoration: none;
   display: block;
 }
-.cafena-pagination ul li span {
+.Arin Coffee-pagination ul li span {
   width: 50px;
   height: 50px;
   justify-content: center;
@@ -6526,12 +6526,12 @@ h6 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.cafena-pagination ul li .current {
+.Arin Coffee-pagination ul li .current {
   background-color: #C7A17A;
   color: #ffffff;
   border-color: #C7A17A;
 }
-.cafena-pagination ul li:hover span {
+.Arin Coffee-pagination ul li:hover span {
   background-color: #C7A17A;
   color: #ffffff;
   border-color: #C7A17A;
@@ -6585,21 +6585,21 @@ h6 {
   overflow: hidden;
 }
 
-.cafena-navigation a {
+.Arin Coffee-navigation a {
   text-decoration: none;
 }
-.cafena-navigation a span {
+.Arin Coffee-navigation a span {
   color: #777777;
   font-size: 14px;
 }
-.cafena-navigation a:hover {
+.Arin Coffee-navigation a:hover {
   color: #C7A17A;
 }
-.cafena-navigation h4 {
+.Arin Coffee-navigation h4 {
   margin-top: 3px;
   font-size: 26px;
 }
-.cafena-navigation h4 a {
+.Arin Coffee-navigation h4 a {
   color: #000;
   display: block;
   font-family: "Bebas Neue", cursive;

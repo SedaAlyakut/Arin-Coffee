@@ -10,3 +10,15 @@ C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.dl
 C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.pdb
 C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.dll
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\bin\Debug\net6.0\Core.dll
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Core\obj\Debug\net6.0\ref\Core.dll
