@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj": {}
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj": {
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj",
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj",
         "projectName": "Buisness",
-        "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj",
-        "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Buisness\\obj\\",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Buisness\\Buisness.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Buisness\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,21 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {},
-          "https://packagesource1": {},
-          "https://packagesource2": {},
-          "https://packagesource3": {}
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj"
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj"
               }
             }
           }
@@ -69,25 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\obj\\",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,11 +84,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {},
-          "https://packagesource1": {},
-          "https://packagesource2": {},
-          "https://packagesource3": {}
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -141,25 +127,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,21 +149,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {},
-          "https://packagesource1": {},
-          "https://packagesource2": {},
-          "https://packagesource3": {}
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj"
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj"
               },
-              "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj"
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj"
               }
             }
           }
@@ -234,25 +213,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
+    "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\OMEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\mertb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OMEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mertb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -260,18 +235,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {},
-          "https://packagesource1": {},
-          "https://packagesource2": {},
-          "https://packagesource3": {}
+          "C:\\Users\\mertb\\Documents\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\OMEN\\My project\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj"
+              "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mertb\\source\\repos\\Arin-Coffee\\ArinCoffee\\Core\\Core.csproj"
               }
             }
           }
@@ -300,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
