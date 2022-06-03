@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WEBUI.Entities;
-using WEBUI.Entities.LoginModels;
+using WEBUI.LoginModels;
 
 namespace WEBUI.Controllers
 {
@@ -61,12 +61,9 @@ namespace WEBUI.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
 
-            if (ModelState.IsValid)
-            {
                 CustomIdentityUser appUser = await _userManager.FindByEmailAsync(loginViewModel.Email);
                 await _signInManager.SignOutAsync();
 
@@ -86,8 +83,6 @@ namespace WEBUI.Controllers
                     ModelState.AddModelError(nameof(loginViewModel.Email), "Login Failed: Invalid Email or password");
                 }
 
-            }
-            
             return RedirectToAction("Index", "Home");
         }
         [HttpGet]

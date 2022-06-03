@@ -13,6 +13,7 @@ namespace Entities.Models
         [Key]
         public int? Id { get; set; }
         public string Message { get; set; }
+        public string NameSurname { get; set; }
         public string Topic { get; set; }
         public string Email { get; set; }
         public DateTime? DateTime { get; set; }

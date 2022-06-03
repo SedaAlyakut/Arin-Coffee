@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WEBUI.Entities;
-using WEBUI.Entities.LoginModels;
+using WEBUI.LoginModels;
 
 namespace WEBUI.Controllers
 {

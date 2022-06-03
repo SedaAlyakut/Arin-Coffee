@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WEBUI.Entities.LoginModels
+namespace WEBUI.LoginModels
 {
     public class RegisterViewModel
     {
