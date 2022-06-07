@@ -91,6 +91,11 @@ namespace WEBUI.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
         public ActionResult LogOff()
         {
             _signInManager.SignOutAsync().Wait();

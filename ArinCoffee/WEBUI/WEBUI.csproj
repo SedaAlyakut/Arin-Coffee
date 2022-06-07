@@ -193,6 +193,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Email\ConfirmEmail.cshtml" />
+    <None Include="Views\Email\Error.cshtml" />
     <None Include="wwwroot\assets\css\animate.min.css" />
     <None Include="wwwroot\assets\css\bootstrap.min.css" />
     <None Include="wwwroot\assets\css\font-awesome.min.css" />
