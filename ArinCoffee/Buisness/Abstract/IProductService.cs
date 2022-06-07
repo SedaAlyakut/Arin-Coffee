@@ -10,5 +10,7 @@ namespace Buisness.Abstract
     public interface IProductService
     {
         List<Product> GetList();
+        Product Get(int Id);
+        void Add(Product product);
     }
 }

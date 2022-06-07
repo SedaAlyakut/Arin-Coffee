@@ -22,5 +22,13 @@ namespace Buisness.Concrete
         {
             return _productDal.GetList();
         }
+        public Product Get(int Id)
+        {
+            return _productDal.Get(q => q.ProductId == Id);
+        }
+        public void Add(Product product)
+        {
+            _productDal.Add(product);
+        }
     }
 }

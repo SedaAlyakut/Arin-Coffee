@@ -1,5 +1,6 @@
 ﻿using Buisness.Abstract;
 using DataAccess.Concrete.EntityFramwork;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using WEBUI.Models;
@@ -74,9 +75,11 @@ namespace WEBUI.Controllers
             return View();
         }
 
-        public IActionResult ProductDetails()
+        public IActionResult ProductDetails(int Id)
         {
-            return View();
+            var singleProduct = _productService.Get(Id);
+
+            return View(singleProduct);
         }
 
         public IActionResult Story()

@@ -27,6 +27,8 @@ public partial class Product : IEntity
         public string Image5 { get; set; } 
         public int? Price { get; set; } 
         public string Category { get; set; }
+        public string? Description { get; set; }
+        public string? MiniImage { get; set; }
 
         public virtual ICollection<Card> Cards { get; set; }
         public virtual ICollection<Watch> Watches { get; set; }
