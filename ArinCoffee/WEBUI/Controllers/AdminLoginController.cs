@@ -33,11 +33,11 @@ namespace WEBUI.Controllers
 
         [HttpPost]
         //[Authorize(Roles = "Admin")]
-        [ValidateAntiForgeryToken]
+      //  [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel registerViewModel)
         {
-            if (ModelState.IsValid)
-            {
+           // if (ModelState.IsValid)
+            //{
                 CustomIdentityUser user = new CustomIdentityUser
                 {
                     UserName = registerViewModel.UserName,
@@ -68,7 +68,7 @@ namespace WEBUI.Controllers
                     return RedirectToAction("Login", "AdminLogin");
                 }
 
-            }
+           // }
             return View(registerViewModel);
         }
 
@@ -79,11 +79,11 @@ namespace WEBUI.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
-            if (ModelState.IsValid)
-            {
+           // if (ModelState.IsValid)
+            //{
                 CustomIdentityUser appUser = await _userManager.FindByEmailAsync(loginViewModel.Email);
 
                 if (appUser != null)
@@ -92,7 +92,7 @@ namespace WEBUI.Controllers
                     var result = _signInManager.PasswordSignInAsync(appUser, loginViewModel.Password, loginViewModel.RememberMe, false).Result;
 
                     if (result.Succeeded)
-                        return RedirectToAction("Index", "Admin");
+                        return RedirectToAction("Index", "Home");
 
                     bool emailStatus = await _userManager.IsEmailConfirmedAsync(appUser);
                     if (emailStatus == false)
@@ -101,7 +101,7 @@ namespace WEBUI.Controllers
                     }
                 }
                 ModelState.AddModelError(nameof(loginViewModel.Email), "Login Failed: Invalid Email or password");
-            }
+           // }
 
             return View(loginViewModel);
         }
