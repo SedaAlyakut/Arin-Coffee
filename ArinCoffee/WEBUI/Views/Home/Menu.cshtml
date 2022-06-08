@@ -42,11 +42,10 @@
                                 <button class="active" data-filter="*">All</button>
 @*                                <button data-filter=".cat1">chocolate</button>*@
                                 <button data-filter=".cat1">coffee</button>
-                                <button data-filter=".cat2">chocolate</button>
-                                <button data-filter=".cat3">sandwiches</button>
-                                <button data-filter=".cat4">sweets</button>
-                                <button data-filter=".cat5">Black tea</button>
-                                <button data-filter=".cat6">Grean Tea</button>
+                                <button data-filter=".cat2">Teas</button>
+                                <button data-filter=".cat3">Coffee & Tea Buddies </button>
+                                <button data-filter=".cat4">Equipmant Accessories</button>
+                                <button data-filter=".cat5">Gift Bundles</button>
                             </div>
                         </div>
                     </div>
@@ -54,7 +53,7 @@
                 <div id="popular-menu-grid-2" class="row popular-menu__grid popular-menu__lists mt-none-30">
                     <div class="col-xl-6 col-lg-6 col-md-6 l-item grid-sizer"></div>
                     @foreach(var item in Model){
-                        <div class="col-xl-6 col-lg-6 col-md-6 l-item grid-item cat@(item.Category) cat2 cat3 mt-35">
+                        <div class="col-xl-6 col-lg-6 col-md-6 l-item grid-item cat@(item.Category)  mt-35">
                         <div class="popular-menu__list">
                             <div class="thumb">
                                 <img src="~/assets/images/menu/@item.MiniImage" alt="">
