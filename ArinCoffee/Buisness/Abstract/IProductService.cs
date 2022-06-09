@@ -12,5 +12,7 @@ namespace Buisness.Abstract
         List<Product> GetList();
         Product Get(int Id);
         void Add(Product product);
+        void Update(Product product);
+        void Delete(int productId);
     }
 }

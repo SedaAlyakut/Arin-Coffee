@@ -27,7 +27,10 @@ public partial class Product : IEntity
         public string Image5 { get; set; } 
         public int? Price { get; set; } 
         public string Category { get; set; }
+        [DataType(DataType.MultilineText)]
         public string? Description { get; set; }
+        [DataType(DataType.MultilineText)]
+        public string? MiniDescription { get; set; }
         public string? MiniImage { get; set; }
 
         public virtual ICollection<Card> Cards { get; set; }

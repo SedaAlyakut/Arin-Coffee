@@ -30,5 +30,15 @@ namespace Buisness.Concrete
         {
             _productDal.Add(product);
         }
+
+        public void Update(Product product)
+        {
+            _productDal.Update(product);
+        }
+
+        public void Delete(int productId)
+        {
+            _productDal.Delete(_productDal.Get(q=>q.ProductId==productId));
+        }
     }
 }

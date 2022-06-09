@@ -1,22 +1,3 @@
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.AssemblyReference.cache
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.AssemblyInfoInputs.cache
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.AssemblyInfo.cs
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.CoreCompileInputs.cache
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Buisness.deps.json
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Buisness.dll
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Buisness.pdb
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Core.dll
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\DataAccess.dll
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Entities.dll
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\DataAccess.pdb
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Entities.pdb
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Core.pdb
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.CopyComplete
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.dll
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\refint\Buisness.dll
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.pdb
-C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\ref\Buisness.dll
 C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.dll
 C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\refint\Buisness.dll
 C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.pdb
@@ -36,3 +17,22 @@ C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisne
 C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.CoreCompileInputs.cache
 C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.CopyComplete
 C:\Users\OMEN\My project\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\ref\Buisness.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Buisness.deps.json
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Buisness.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Buisness.pdb
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Core.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\DataAccess.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Entities.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Entities.pdb
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\bin\Debug\net6.0\Core.pdb
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.AssemblyReference.cache
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.AssemblyInfoInputs.cache
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.AssemblyInfo.cs
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.CoreCompileInputs.cache
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.csproj.CopyComplete
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\refint\Buisness.dll
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\Buisness.pdb
+C:\Users\mertb\source\repos\Arin-Coffee\ArinCoffee\Buisness\obj\Debug\net6.0\ref\Buisness.dll

@@ -1,0 +1,177 @@
+﻿@model Entities.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<h2>@Model.ProductName Changing</h2>
+
+@using (Html.BeginForm("ProductEdit", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <div class="form-group">
+        <input class="form-control"  name="ProductId" value="@Model.ProductId" hidden/>
+    </div>
+                    
+    <div class="form-horizontal">
+        <h4>&nbsp;</h4>
+        <hr />
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="control-label col-md-2">Product Name</label>
+            <div class="col-md-10">
+                <input class="form-control" name="ProductName" value="@Model.ProductName" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Mini Pic</label>
+            <div class="col-md-10">
+                <input type="file" name="ourFileMini" value="@Model.MiniImage" class="form-control-file form-control height-auto" />
+                @if (Model.MiniImage != null)
+                {
+                    <img style="width:300px;" src="~/assets/images/menu/@Model.MiniImage" />
+                    <input hidden name="MiniPath" value="@Model.MiniImage" />
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">First Pic</label>
+            <div class="col-md-10">
+                <input type="file" name="ourFile" value="@Model.Image1" class="form-control-file form-control height-auto" />
+                @if (Model.Image1 != null)
+                {
+                    <img style="width:300px;" src="~/assets/images/products/shop/@Model.Image1" />
+                    <input hidden name="ResimPath" value="@Model.Image1" />
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Second Pic</label>
+            <div class="col-md-10">
+                <input type="file" name="ourFile2" class="form-control-file form-control height-auto" />
+                @if (Model.Image2 != null)
+                {
+                    <img style="width:300px;" src="~/assets/images/products/shop/@Model.Image2" />
+                    <input hidden name="Resim2Path" value="@Model.Image2" />
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Third Pic</label>
+            <div class="col-md-10">
+                <input type="file" name="ourFile3" class="form-control-file form-control height-auto" />
+                @if (Model.Image3 != null)
+                {
+                    <img style="width:300px;" src="~/assets/images/products/shop/@Model.Image3" />
+                    <input hidden name="Resim3Path" value="@Model.Image3" />
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Four Pic</label>
+            <div class="col-md-10">
+                <input type="file" name="ourFile4" class="form-control-file form-control height-auto" />
+                @if (Model.Image4 != null)
+                {
+                    <img style="width:300px;" src="~/assets/images/products/shop/@Model.Image4" />
+                    <input hidden name="Resim4Path" value="@Model.Image4" />
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Fifth Pic</label>
+            <div class="col-md-10">
+                <input type="file" name="ourFile5" class="form-control-file form-control height-auto" />
+                @if (Model.Image5 != null)
+                {
+                    <img style="width:300px;" src="~/assets/images/products/shop/@Model.Image5" />
+                    <input hidden name="Resim4Path" value="@Model.Image5" />
+                }
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <h4>Description:</h4>
+            <div class="col-md-10">
+                <textarea class="ckeditor" cols="80" name="Description" rows="10">@Model.Description</textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Mini Description</label>
+            <div class="col-md-10">
+                <textarea class="ckeditor" cols="80" name="MiniDescription" rows="10">@Model.MiniDescription</textarea>
+            </div>
+        </div>
+
+
+
+        <br />
+
+
+        <hr />
+
+        <hr />
+        <h2>Link Alanları</h2>
+        <div class="pd-20 card-box mb-30" style="background-color:aquamarine">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-sm-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Category</label>
+                        <input class="form-control" name="Category" value="@Model.Category" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-sm-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Price</label>
+                        <input class="form-control" name="Price" value="@Model.Price" />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-sm-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Status</label>
+                        <input class="form-control" name="Status" value="@Model.Status" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="form-group">
+                        <label class="control-label col-md-2">Weight</label>
+                        <input class="form-control" name="Weight" value="@Model.Weight" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <hr />
+        <br>
+        <input hidden type="text" name="Adder" class="form-control" value="@Model." required>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </div>
+
+
+    </div>
+
+}
+<br />
+<div>
+    @Html.ActionLink("Back", "Index", "", new { @class = "btn btn-info" })
+</div>
