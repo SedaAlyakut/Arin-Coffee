@@ -1,4 +1,5 @@
-﻿<!doctype html>
+﻿@using System.Security.Claims
+<!doctype html>
 <html class="no-js" lang="zxx">
 
 <head>
@@ -106,7 +107,19 @@
                                 <a href="#0" target="_blank"><i class="fab fa-google-plus-g"></i></a>
                                 <a href="#0" target="_blank"><i class="fab fa-instagram"></i></a>
                             </div>
-                            <a href="/Account/Login" class="site-btn">Login</a>
+                             @{ if (!String.IsNullOrEmpty(User.FindFirstValue(ClaimTypes.Name)))
+                        {
+                             <h5>Welcome @User.FindFirstValue(ClaimTypes.Name)</h5>
+                                    
+                        }
+                        else
+                        {
+
+                           <a href="/Account/Login" class="site-btn">Login</a>
+
+                        }
+                    }
+                           
                         </div>
                     </div>
                 </div>

@@ -32,8 +32,8 @@ namespace WEBUI.Controllers
         }
 
         [HttpPost]
-        //[Authorize(Roles = "Admin")]
-      //  [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+        //  [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel registerViewModel)
         {
            // if (ModelState.IsValid)
@@ -103,7 +103,7 @@ namespace WEBUI.Controllers
                 ModelState.AddModelError(nameof(loginViewModel.Email), "Login Failed: Invalid Email or password");
            // }
 
-            return View(loginViewModel);
+            return RedirectToAction("Index", "Admin", loginViewModel);
         }
 
 

@@ -10,7 +10,7 @@ using System.Drawing.Imaging;
 
 namespace WEBUI.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+
     public class AdminController : Controller
     {
 
@@ -28,7 +28,7 @@ namespace WEBUI.Controllers
             _orderService = orderService;
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             IndexViewModel model = new IndexViewModel();
@@ -36,17 +36,19 @@ namespace WEBUI.Controllers
             model.orders = _orderService.GetList();
             return View(model);
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult ProductEdit(int Id)
         {
             return View(_productService.Get(Id));
         }
+        [Authorize(Roles = "Admin")]
         public IActionResult DeleteProduct(int Id)
         {
             _productService.Delete(Id);
                 return RedirectToAction("", "Admin");
         }
-        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        [HttpPost("ProductEdit")]
         public IActionResult ProductEdit(Product product, IFormFile ourFileMini, IFormFile ourFile, IFormFile ourFile2, IFormFile ourFile3, IFormFile ourFile4, IFormFile ourFile5)
         {
 
