@@ -73,7 +73,7 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseRouting();
 
-app.UseResponseCaching();
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
